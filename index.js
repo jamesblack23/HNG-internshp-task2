@@ -26,7 +26,7 @@ const pool = new Pool({
 
 
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
     res.json("Server is alive")
 })
 
