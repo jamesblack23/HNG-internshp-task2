@@ -75,12 +75,12 @@ const pool = new Pool({
 - Now your Node-js Server can communicate with the POSTGRES instance.
 - Before we are ready to perform CRUD operations we need to create a table in the database instance that we created on ElephantSQL, this will hold all the data for our different persons. 
 - You can do this by running the following query on the ElephantSQL dashboard Browser tab
-- After going through the documentation on deploying a Node-js app you can deploy the project with the necessary modifications to the index.js file and it will be ready to go.
-
 
 ```
 CREATE TABLE persons_table(id SERIAL, name text);
 ```
+
+- After going through the documentation on deploying a Node-js app you can deploy the project with the necessary modifications to the index.js file and it will be ready to go.
 
 
 ### 
